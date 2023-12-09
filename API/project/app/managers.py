@@ -27,6 +27,7 @@ class PerevalManager:
                 summer_level=level_data.get('summer', ''),
                 autumn_level=level_data.get('autumn', ''),
                 spring_level=level_data.get('spring', ''),
+                status='new'
             )
 
             for image_data in images_data:
