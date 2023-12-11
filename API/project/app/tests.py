@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Pereval, Image
+from .models import Pereval
 
 class PerevalModelTest(TestCase):
     def setUp(self):
